@@ -1,10 +1,10 @@
 # Basic algorithms
 
-**Searching** \n
--Linear Search
--Binary Search
+**Searching**
+- Linear Search
+- Binary Search
 
-**Sorting** \n
--Selection Sort
--Bubble Sort
--Insertion Sort
+**Sorting** 
+- Selection Sort
+- Bubble Sort
+- Insertion Sort
