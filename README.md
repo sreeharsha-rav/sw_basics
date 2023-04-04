@@ -1,10 +1,11 @@
-# Basics of Software Programming
+# Basics of Programming
 
 This repo is a reference to anyone wanting to brush up on the building blocks of programming/coding. All of the examples have been implemented in python so it is easy to understand.
 
 It's still a work in progress...
 
 ## Data Structures
+A data structure is a way of organizing and storing data in a computer so that it can be accessed and used efficiently.
 
 **Fundamental to python:**
 - Lists: a mutable ordered collection of elements which can be of any data type.
@@ -20,6 +21,7 @@ It's still a work in progress...
 - Hash maps
 
 ## Algorithms
+Algorithms are step-by-step procedures that can be followed systematically to produce a desired output.
 
 **Searching**: Search for a given input element within an array and get back it's location/index within the array.
 - Linear Search
