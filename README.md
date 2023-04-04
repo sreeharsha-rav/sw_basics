@@ -1,4 +1,4 @@
-# Basics of Software Development
+# Basics of Software Programming
 
 This repo is a reference to anyone wanting to brush up on the building blocks of programming/coding. All of the examples have been implemented in python so it is easy to understand.
 
