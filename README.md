@@ -1,4 +1,4 @@
-# Basics of Software Devlopment
+# Basics of Software Development
 
 **Data Structures**
 
