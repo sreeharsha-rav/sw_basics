@@ -5,7 +5,7 @@ This repo is a reference to anyone wanting to brush up on the building blocks of
 It's still a work in progress...
 
 ## Data Structures
-A data structure is a way of organizing and storing data in a computer so that it can be accessed and used efficiently.
+A data structure is a way of organizing and storing data in a computer so that it can be accessed and used efficiently. Mentioned below are data structures used in python and those which are used in fundamental to all languages.
 
 **Fundamental to python:**
 - Lists: a mutable ordered collection of elements which can be of any data type.
@@ -21,9 +21,9 @@ A data structure is a way of organizing and storing data in a computer so that i
 - Hash maps
 
 ## Algorithms
-Algorithms are step-by-step procedures that can be followed systematically to produce a desired output.
+Algorithms are step-by-step procedures that can be followed systematically to produce a desired output. Mentioned below are some examples of well-known algorithms.
 
-**Searching**: Search for a given input element within an array and get back it's location/index within the array.
+**Searching**: search for a given input element within an array and get back it's location/index within the array.
 - Linear Search
 - Binary Search
 
@@ -34,4 +34,4 @@ Algorithms are step-by-step procedures that can be followed systematically to pr
 - Merge Sort
 
 **Computing**
-- GCD: Finds the greatest common divisor among 2 numbers
+- GCD: Find the greatest common divisor among 2 numbers.
