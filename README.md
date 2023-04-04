@@ -1,6 +1,7 @@
 # Basics of Data Structures and Algorithms
 
 **Data Structures**
+
 *Native to python:*
 - Lists
 - Tuples
@@ -15,11 +16,12 @@
 - Hash maps
 
 **Algorithms**
-**Searching**
+
+*Searching*
 - Linear Search
 - Binary Search
 
-**Sorting** 
+*Sorting* 
 - Selection Sort
 - Bubble Sort
 - Insertion Sort
