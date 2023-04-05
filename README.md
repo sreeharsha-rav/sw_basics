@@ -1,13 +1,13 @@
 # Basics of Programming
 
-This repo is a reference to anyone wanting to brush up on the building blocks of programming/coding. All of the examples have been implemented in python so it is easy to understand.
+This repo is a reference to anyone wanting to brush up on the building blocks of programming/coding. All of the examples have been implemented in Python so it is easy to understand.
 
 It's still a work in progress...
 
 ## Data Structures
 A data structure is a way of organizing and storing data in a computer so that it can be accessed and used efficiently. Mentioned below are data structures used in python and those which are used in fundamental to all languages.
 
-**Fundamental to python:**
+**Fundamental to Python:**
 - _List_: a mutable ordered collection of elements which can be of any data type.
 - _Tuple_: an immutable ordered collection of elements which an contains different data types.
 - _Set_: an unordered collection of unique elements which can be of any data type.
