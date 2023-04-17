@@ -2,13 +2,10 @@ def calc_fib1(n):
     # function calc_fib1 computes fibonacci values upto given input n (using dynamic programming concept)
     # time complexity = O(n), spcae complexity = O(n)
 
-    fib = [0,1] # initialize empty list to store fibonacci values
-
-    fib[0] = 0
-    fib[1] = 1
+    fib = [0,1] # initialize list to store starting fibonacci values
     
     for i in range(2, n+1):
-        fib.append(fib[i-1] + fib[i-2])
+        fib.append(fib[i-1] + fib[i-2]) # calulate fibonacci value and append to list
     
     return fib
 
