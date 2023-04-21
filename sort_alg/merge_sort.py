@@ -1,36 +1,40 @@
 def merge_sort(arr):
-    # sorts arr in ascending order via divide and conquer
+    # sorts arr in ascending order via divide and conquer -> merge sort
     start = 0
     end = len(arr)
 
-    if end == 1:
+    if end == 1:    # if number of elements is 1, then arr is already sorted
         sorted_arr = arr
         return sorted_arr
     
-    mid = (start + end) // 2
+    # DIVIDE
+    mid = (start + end) // 2    # calculate mid and divide into left and right arrays
     left = arr[start : mid]
     right = arr[mid : end]
-
-    left = merge_sort(left)    # divide
-    right = merge_sort(right)   # divide
-    sorted_arr = merge(arr, left, right) # combine
+    
+    # CONQUER
+    left = merge_sort(left)
+    right = merge_sort(right)
+    
+    # COMBINE
+    sorted_arr = merge(arr, left, right)
 
     return sorted_arr
 
 
 def merge(arr, left, right):
-    # combines left and right arrays and sorts them into arr
+    # takes elements from left and right, puts them into arr while sorting simultaneously
 
-    i = j = k = 0   # indices to track combining
+    i = j = k = 0   # indices to track combining, i for left, j for right and k for merged arr
 
     while (i < len(left)) and (j < len(right)): # copy smallest uncombined elements into arr
         if left[i] <= right[j]:
             arr[k] = left[i]
-            i += 1
+            i += 1  # increment left index
         else:
             arr[k] = right[j]
-            j += 1
-        k += 1
+            j += 1  # increment right index
+        k += 1  # increment merged arr index
     
     while i < len(left):    # copy left-over left elements into arr
         arr[k] = left[i]

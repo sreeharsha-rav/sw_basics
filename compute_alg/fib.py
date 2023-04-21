@@ -1,5 +1,5 @@
-def calc_fib1(n):
-    # function calc_fib1 computes fibonacci values upto given input n (using dynamic programming concept)
+def calc_fib(n):
+    # function calc_fib computes fibonacci values upto given input n (using dynamic programming concept)
     # time complexity = O(n), spcae complexity = O(n)
 
     fib = [0,1] # initialize list to store starting fibonacci values
@@ -11,4 +11,4 @@ def calc_fib1(n):
 
 # Driver program
 if __name__ == "__main__":
-    print(calc_fib1(10))
+    print(calc_fib(10))

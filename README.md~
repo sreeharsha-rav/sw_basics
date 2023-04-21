@@ -32,9 +32,6 @@ Algorithms are step-by-step procedures that can be followed systematically to pr
 - Bubble Sort
 - Insertion Sort
 - Merge Sort
-- Quick Sort
 
 **Computing**
 - GCD: Find the greatest common divisor among 2 numbers.
-- Fibonacci: Find the nth fibonacci number in the sequence.
-- Factorial: Compute the factorial of given input number.
