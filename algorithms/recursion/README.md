@@ -1,4 +1,4 @@
-## Recursion
+# Recursion
 
 Recursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems. It consists of 2 main parts: Base Case and Recursion Cue.
 
@@ -15,13 +15,13 @@ A call stack is used to store the invocations of recursive functions. As a stack
 **Pros**
 - Reduces complex problems to a simple solution using few lines of code.
 
-### Recursive Algorithms
+## Recursive Algorithms
 
 **factorial**
-Compute the factorial of a given positive integer. A factorial is a mathematical function that computes the product of all positive integers upto given input numer. For example, fatorial of 5 is _5! = 5*4*3*2*1_.
+- Compute the factorial of a given positive integer. A factorial is a mathematical function that computes the product of all positive integers upto given input numer. For example, fatorial of 5 is _5! = 5*4*3*2*1_.
 
 **fibonacci**
-Generate a fibonacci sequence upto given input length of sequence. A fibonacci sequence is a sequence of numbers where each number is the sum of 2 preceding numbers. For example, fibonacci sequence of length 7 is _0, 1, 1, 2, 3, 5, 8_
+- Generate a fibonacci sequence upto given input length of sequence. A fibonacci sequence is a sequence of numbers where each number is the sum of 2 preceding numbers. For example, fibonacci sequence of length 7 is _0, 1, 1, 2, 3, 5, 8_
 
 **flatten**
-Given an input multidimensional list, flattens the list to a single dimension. For example, if input list is _[]
+- Given an input multidimensional list, flattens the list to a single dimension. For example, if input list is _[]
