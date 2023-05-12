@@ -1,12 +1,15 @@
 def factorial(num):
     # compute the factorial of num
-
+    if num < 0:
+        raise ValueError("Input number is below 0")
+     
     if num == 0:    # 0! is 1
         return 1
     else:
         return num * factorial(num-1)   # n! = n*(n-1)*(n-2)*....*1
     
 # TIME COMPLEXITY = O(N)
+# SPACE COMPLEXITY = O(N)
  
 # Driver Program
 if  __name__ == "__main__":

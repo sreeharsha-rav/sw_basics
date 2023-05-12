@@ -3,7 +3,7 @@
 Recursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems. It consists of 2 main parts: Base Case and Recursion Cue.
 
 - _Base Case_: Condition that stops the recursive function from recursing indefinitely.
-- _Recursive Cue_: Cue to call the recursive function with an input that gets it closer to the base case.
+- _Recursion Cue_: Cue to call the recursive function with an input that gets it closer to the base case.
 
 A call stack is used to store the invocations of recursive functions. As a stack follow LIFO, the last function in it's stack is when the base case is met.
 
@@ -23,8 +23,4 @@ Compute the factorial of a given positive integer. A factorial is a mathematical
 
 **fibonacci**
 
-Generate a fibonacci sequence upto given input length of sequence. A fibonacci sequence is a sequence of numbers where each number is the sum of 2 preceding numbers. For example, fibonacci sequence of length 7 is _0, 1, 1, 2, 3, 5, 8_.
-
-**flatten**
-
-Given an input multidimensional list, flattens the list to a single dimension. For example, if input list is _['a', ['b', ['c', ['d']], 'e'], 'f']_, then the output list is _['a', 'b', 'c', 'd', 'e', 'f']_.
+Compute the nth fibonacci number for given input. A fibonacci sequence is a sequence of numbers where each number is the sum of 2 preceding numbers and the nth fibonacci number would be the nth number in this sequence. For example, 7th fibonacci number is _8_ and the corresponding fibonacci sequence is _0, 1, 1, 2, 3, 5, 8_.
