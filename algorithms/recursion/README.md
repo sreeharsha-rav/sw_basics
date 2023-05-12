@@ -20,7 +20,13 @@ A call stack is used to store the invocations of recursive functions. As a stack
 **factorial**
 
 Compute the factorial of a given positive integer. A factorial is a mathematical function that computes the product of all positive integers upto given input numer. For example, fatorial of 5 is _5! = 5*4*3*2*1_.
+- Time Complexity = O(N)
+
+*This is good for recursion.*
 
 **fibonacci**
 
 Compute the nth fibonacci number for given input. A fibonacci sequence is a sequence of numbers where each number is the sum of 2 preceding numbers and the nth fibonacci number would be the nth number in this sequence. For example, 7th fibonacci number is _8_ and the corresponding fibonacci sequence is _0, 1, 1, 2, 3, 5, 8_.
+- Time Complexity = O(2^N)
+
+*This is not good for recursion.*
