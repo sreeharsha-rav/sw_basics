@@ -1,4 +1,4 @@
-# Algorithms
+## Algorithms
 Algorithms are step-by-step procedures that can be followed systematically to produce a desired output. There are several kinds of algorithms designed to solved different problems. Mentioned below are some known algorithms:
 
 **Brute Force**

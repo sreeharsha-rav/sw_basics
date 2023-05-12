@@ -1,4 +1,4 @@
-# Basics of Programming
+## Basics of Programming
 
 This repository serves as a reference for reviewing fundamental programming concepts. All examples are implemented in Python for ease of understanding.
 
