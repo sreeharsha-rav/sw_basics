@@ -8,14 +8,17 @@ A data structure is a way of organizing and storing data in a computer so that i
 - _Dictionary_: a collection of key-value pairs where each key is unique, immutable, can be of any type. The key-value pairs are mutable after creation.
 
 ### Time Complexities
-*List and Tuples:*
-<img src="https://github.com/sreeharsha-rav/sw_basics/blob/main/images/list_bigO.png" width = 60% height = 60%>
+- *List and Tuples:*
 
-*Dictionary:*
-<img src="https://github.com/sreeharsha-rav/sw_basics/blob/main/images/dict_bigO.png" width = 60% height = 60%>
+- <img src="https://github.com/sreeharsha-rav/sw_basics/blob/main/images/list_bigO.png" width = 60% height = 60%>
 
-*Set:*
-<img src="https://github.com/sreeharsha-rav/sw_basics/blob/main/images/set_bigO.png" width = 60% height = 60%>
+- *Dictionary:*
+
+- <img src="https://github.com/sreeharsha-rav/sw_basics/blob/main/images/dict_bigO.png" width = 60% height = 60%>
+
+- *Set:*
+
+- <img src="https://github.com/sreeharsha-rav/sw_basics/blob/main/images/set_bigO.png" width = 60% height = 60%>
 
 
 ## Fundamental to all languages
