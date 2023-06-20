@@ -27,6 +27,8 @@ def partition(arr, left, right):
 
     return i-1
 
+# TIME COMPLEXITY = O(NlogN)
+# SPACE COMPLEXITY = O(N)
 
 # Driver program
 if __name__ == "__main__":

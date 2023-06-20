@@ -8,6 +8,9 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 
+# TIME COMPLEXITY = O(N^2)
+# SPACE COMPLEXITY = O(1)
+
 # driver code
 if __name__ == "__main__":
     num_list = [int(num) for num in input("Enter integer array: ").split()]

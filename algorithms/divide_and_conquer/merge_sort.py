@@ -48,6 +48,9 @@ def merge(arr, left, right):
     
     return arr
 
+# TIME COMPLEXITY = O(NlogN)
+# SPACE COMPLEXITY = O(N)
+
 # Driver Code
 if __name__ == "__main__":
     a = [int(num) for num in input("Enter integer array to be sorted: ").split()]

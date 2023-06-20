@@ -7,9 +7,9 @@ Algorithms are step-by-step procedures that can be followed systematically to pr
 **Recursion**:
 - _factorial_
 - _fibonacci_
-- _flatten_
 
 **Divide and Conquer**
+- _binary search_
 - _merge sort_
 - _quick sort_
 

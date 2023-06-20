@@ -11,6 +11,9 @@ def insertion_sort(arr):
     
     return arr 
 
+# TIME COMPLEXITY = O(N^2)
+# SPACE COMPLEXITY = O(N)
+
 # Driver code
 if __name__ == "__main__":
     num_list = [int(num) for num in input("Enter integer array: ").split()]

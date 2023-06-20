@@ -11,4 +11,4 @@ def calc_fib(n):
 
 # Driver program
 if __name__ == "__main__":
-    print(calc_fib(10))
+    print(calc_fib(3))

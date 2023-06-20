@@ -68,17 +68,19 @@ class LinkedList:
 
   def remove_node(self, del_data):
     # deletes del_data from linked list
-    if self.head == None:
+    current_node = self.head  # start from head node
+
+    if current_node == None:
       print("Linked List is empty")
       return
     
-    if self.head.get_data() == del_data:  # if first node is the one to be deleted
-      next_node = self.head.get_next()
-      self.head = next_node  # change head to next node
+    if current_node.get_data() == del_data:  # if first node is the one to be deleted
+      next_node = current_node.get_next()
+      current_node = next_node  # change head to next node
       return
     
-    prev_node = self.head # set first node as previous node
-    next_node = self.head.get_next()  # set second node as next node
+    prev_node = current_node # set first node as previous node
+    next_node = current_node.get_next()  # set second node as next node
 
     while next_node:
       if next_node.get_data() == del_data:
@@ -89,18 +91,15 @@ class LinkedList:
 
     print("Node with", del_data, "data not found")
 
-  def search_node(self, search_data):
-    # to check whether search_data exists within linked list or not
+  def has_node(self, node):
+    # to check whether node exists within linked list or not
     current_node = self.head
     while current_node:
-      if current_node.get_data() == search_data:
+      if current_node == node:
         return True
       current_node = current_node.get_next()  # move to next node
       
     return False
-
-  def sort_llist():
-    pass
 
   def print_llist(self):
     # print all nodes with link in the linked list
@@ -140,13 +139,13 @@ if __name__ == "__main__":
   print("removed 1 from linked list")
   ll_1.print_llist()
 
-  print("is 3 present in linked list? ", ll_1.search_node(3))
+  print("is 3 present in linked list? ", ll_1.has_node(3))
 
   ll_1.remove_node(3)
   print("removed 3 from linked list")
   ll_1.print_llist()
 
-  print("is 3 present in linked list? ", ll_1.search_node(3))
+  print("is 3 present in linked list? ", ll_1.has_node(3))
 
   ll_1.remove_node(5)
   print("removed 5 from linked list")
