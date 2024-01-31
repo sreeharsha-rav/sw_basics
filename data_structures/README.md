@@ -28,6 +28,19 @@ A data structure is a way of organizing and storing data in a computer so that i
 - Queue: Elements follow first in, first out(FIFO) protocol.
 - Hash maps: Stores key-value pairs for efficient assignment and retrieval of data. Using key we can get associated the value/data.
 
+## Non-Linear Data Structures
+- Trees: a tree is a hierachical data structure that consists of nodes connected by edges. Each node can have multiple children. In python, there are different kinds of trees that can be implemented:
+    - General Tree: Unrestricted tree where each node can have any number of children
+    - Binary Trees: Tree where each node can have at most two children.
+    - Binary Search Tree: Specific type of binary tree where the left child is lesser than it's parent, and right child is greater than it's parent.
+    - Heap: Specialized tree-based data structure, that satisfies heap property. There are 2 types of heaps and the heap property is different for each of them. Heaps are implemented as binary heaps, where each node has 2 children.
+        - Min-Heap: a complete binary tree where the value of the parent node is greater than or equal to the values of it's children nodes.
+        - Max-Heap: A complete binary tree where the value of the parent node is lesser than or equal to the values of it's children nodes.
+- Heap: A heap data structure can also be implemented using array. The location of each child or parent derives from a formula using the index:
+    - left child = (index * 2) + 1
+    - right child = (index * 2) + 2
+    - parent = (index - 1) / 2  -> *not used on the root!*
+
 ### Time Complexities
 
 <img src="https://github.com/sreeharsha-rav/sw_basics/blob/main/images/fund_bigO.png" width = 60% height = 60%>
