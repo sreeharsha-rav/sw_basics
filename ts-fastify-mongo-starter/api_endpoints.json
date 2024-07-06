@@ -1,0 +1,45 @@
+{
+    "endpoints": [
+      {
+        "name": "Get All Users",
+        "method": "GET",
+        "url": "http://localhost:3000/api/users",
+        "curl": "curl -X GET http://localhost:3000/api/users"
+      },
+      {
+        "name": "Create a New User",
+        "method": "POST",
+        "url": "http://localhost:3000/api/users",
+        "curl": "curl -X POST -H \"Content-Type: application/json\" -d '{\"name\":\"John Doe\",\"email\":\"john@example.com\"}' http://localhost:3000/api/users",
+        "body": {
+          "name": "John Doe",
+          "email": "john@example.com"
+        }
+      },
+      {
+        "name": "Get a Single User",
+        "method": "GET",
+        "url": "http://localhost:3000/api/users/1",
+        "curl": "curl -X GET http://localhost:3000/api/users/1",
+        "note": "Replace '1' with the actual user ID"
+      },
+      {
+        "name": "Update a User",
+        "method": "PUT",
+        "url": "http://localhost:3000/api/users/1",
+        "curl": "curl -X PUT -H \"Content-Type: application/json\" -d '{\"name\":\"Jane Doe\",\"email\":\"jane@example.com\"}' http://localhost:3000/api/users/1",
+        "body": {
+          "name": "Jane Doe",
+          "email": "jane@example.com"
+        },
+        "note": "Replace '1' with the actual user ID"
+      },
+      {
+        "name": "Delete a User",
+        "method": "DELETE",
+        "url": "http://localhost:3000/api/users/1",
+        "curl": "curl -X DELETE http://localhost:3000/api/users/1",
+        "note": "Replace '1' with the actual user ID"
+      }
+    ]
+}
