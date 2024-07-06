@@ -2,16 +2,16 @@
 node_modules
 
 # build files
-build
+dist
 
 # logs
 logs
 
-# dotenv
+# dotenv environment variables file
 .env
 
 # IDE files
 .vscode
 
-# dist
-dist
+# OS files
+.DS_Store
