@@ -22,6 +22,9 @@ This repo consists of the following components:
         - Greedy Algorithms
         - Dynamic Programming
 
+- **Advanced Concepts:**
+    - *pipe*: a concept to create chains of operations.
+
 - **Starter Templates:**
     - *Python*
         - *Python-Flask-PostgreSQL*: A starter template for building a REST API using Python, Flask, and PostgreSQL.
